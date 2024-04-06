@@ -1,0 +1,8 @@
+<h1>Hi from First Component</h1>
+
+<div class="div">
+    <span>Enter your Name:</span>
+    <input style="margin-left: 3px;" type="text" [(ngModel)]="fname" placeholder="Username">
+    <p>Your Name is : {{fname}}</p>
+    <input class="btn" type="button" value="Reset" (click)="reset()">
+</div>
