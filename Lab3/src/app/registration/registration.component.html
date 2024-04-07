@@ -1,0 +1,28 @@
+<div>
+    <div>
+        <h1>Registeration</h1>
+    </div>
+    <div class="myform">
+        <input class="btn1" type="text" [(ngModel)]="name" placeholder="Name">
+        @if(name.length < 3) {
+            <div style="color: red;">
+                Name Not Valid
+            </div>
+        }@else {
+            <div style="color: yellowgreen;">
+                Name Valid
+            </div>
+        }
+        <input class="btn1" type="text" [(ngModel)]="age" placeholder="Age">
+        @if(+age>25){
+            <div style="color: red;">
+                Age Not Valid
+            </div>
+        }@else if(+age) {
+            <div style="color: yellowgreen;">
+                Age Valid
+            </div>
+        }
+        <input class="btn" type="button" (click)="send()" value="Add">
+    </div>
+</div>
