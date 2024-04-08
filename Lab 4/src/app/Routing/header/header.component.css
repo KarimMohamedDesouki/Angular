@@ -1,0 +1,10 @@
+.bg{
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    color: brown;
+}
