@@ -9,8 +9,6 @@ Brief description or introduction of your Angular project.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Creating a Component](#creating-a-component)
-- [Basics of Angular](#basics-of-angular)
-
 ## Features
 
 - List key features or functionalities of your Angular project.
