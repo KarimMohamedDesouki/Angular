@@ -90,6 +90,7 @@ To create a new component in your Angular project, you can use the Angular CLI. 
 
 ```bash
 ng generate component my-component
+```
 
 git clone https://github.com/KarimMohamedDesouki/Angular-Labs.git
 
