@@ -91,4 +91,15 @@ To create a new component in your Angular project, you can use the Angular CLI. 
 ```bash
 ng generate component my-component
 
+git clone https://github.com/KarimMohamedDesouki/Angular-Labs.git
+
+Then, navigate to the specific lab directory you're interested in and explore the Angular project files and resources.
+
+## Contributing
+
+Contributions to this repository are welcome! If you find any issues, errors, or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for educational purposes.
 
